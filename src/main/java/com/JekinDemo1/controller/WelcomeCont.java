@@ -12,6 +12,11 @@ public class WelcomeCont {
 	{
 		return "Welcome from controller";
 	}
+
+	@GetMapping("/test")
+	public String test() {
+    		return "Test endpoint is working!";
+	}
 	
 
 }
